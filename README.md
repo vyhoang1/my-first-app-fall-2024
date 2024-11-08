@@ -27,6 +27,12 @@ python app/unemployment-report.py
 python -m app.unemployment
 ```
 
+Run the unemployment report:
+
+```sh
+ALPHAVANTAGE_API_KEY="..." python app/unemployment.py
+```
+
 Run the stocks report:
 
 ```sh
