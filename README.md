@@ -22,7 +22,7 @@ pip install -r requirements.txt
 ## Usage
 Run the script:
 ```sh
-python app/unemployment-report.py
+python example.py
 # equivalent:
 python -m app.unemployment
 ```
@@ -30,7 +30,7 @@ python -m app.unemployment
 Run the unemployment report:
 
 ```sh
-ALPHAVANTAGE_API_KEY="..." python app/unemployment.py
+python app/unemployment-report.py
 ```
 
 Run the stocks report:
