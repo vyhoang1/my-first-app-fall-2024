@@ -38,3 +38,8 @@ Run the stocks report:
 ```sh
 python app/stocks_report.py
 ```
+
+Run the example email sending: 
+
+```sh
+python app/email_service.py
