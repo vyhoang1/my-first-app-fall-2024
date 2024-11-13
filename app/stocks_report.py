@@ -2,12 +2,10 @@
 
 # LOCAL DEV (ENV VARS)
 
-import os
-
-from dotenv import load_dotenv
 from pandas import read_csv
 from plotly.express import line
 
+from app.alpha_service import API_KEY
 
 load_dotenv() # looks in the ".env" file for env vars
 
