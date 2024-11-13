@@ -30,17 +30,13 @@ python -m app.unemployment
 Run the unemployment report:
 
 ```sh
-#python app/unemployment-report.py
-
-python -m app.unemployment-report
+python app/unemployment-report.py
 ```
 
 Run the stocks report:
 
 ```sh
-#python app/stocks_report.py
-
-python -m app.stocks_report
+python app/stocks_report.py
 ```
 
 Run the example email sending: 
