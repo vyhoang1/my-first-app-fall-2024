@@ -18,6 +18,13 @@ Install packages:
 # best practice to list the packages in the requirements.txt file:
 pip install -r requirements.txt
 ```
+## Testing
+
+Run tests:
+
+```sh
+pytest
+```
 
 ## Usage
 Run the script:
