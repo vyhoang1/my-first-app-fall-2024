@@ -3,7 +3,7 @@
 # LOCAL DEV (ENV VARS)
 
 from statistics import mean
-
+from app.alpha_service import API_KEY
 import requests
 from plotly.express import line
 
