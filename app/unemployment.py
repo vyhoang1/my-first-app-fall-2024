@@ -7,9 +7,7 @@ from app.alpha_service import API_KEY
 import requests
 from plotly.express import line
 
-load_dotenv() # looks in the ".env" file for env vars
 
-API_KEY = os.getenv("ALPHAVANTAGE_API_KEY", default="demo")
 
 
 def fetch_unemployment_json():
