@@ -7,6 +7,8 @@ from plotly.express import line
 
 
 from app.alpha_service import API_KEY
+from app.email_service import send_email_with_sendgrid
+
 
 def format_usd(my_price):
     return f"${float(my_price):,.2f}"
